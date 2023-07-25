@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5535B127-6443-C756-7444-11C2CBE43265}</ProjectGuid>
+    <ProjectGuid>{A22199F2-DA8A-1A8C-B637-F98410E294CA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -67,6 +67,7 @@
     <Compile Include="Assets\MainScene\EvolveGames\RealisticFPSController\Scripts\HandsSmooth.cs" />
     <Compile Include="Assets\MainScene\EvolveGames\RealisticFPSController\Scripts\TextWriter.cs" />
     <Compile Include="Assets\MainScene\EvolveGames\RealisticFPSController\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\BlinkController.cs" />
     <Compile Include="Assets\Scripts\JumpScareTrigger.cs" />
     <Compile Include="Assets\Scripts\DoorTrigger.cs" />
     <Compile Include="Assets\Scripts\FadeIn.cs" />
