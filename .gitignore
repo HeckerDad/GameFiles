@@ -72,8 +72,7 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 Assets/Retro Cartoon Car Cicada/Textures/CICADA_4096.psd
 Assets/Packages/Retro Cartoon Car Cicada/Textures/CICADA_4096.psd
-/Library/
-/Logs/
-/Library/
-/ProjectSettings/
-/Temp/
+/Library/*
+/Logs/*
+/ProjectSettings/*
+/Temp/*
