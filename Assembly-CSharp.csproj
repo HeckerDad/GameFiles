@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8D995B25-B990-F2C0-D08D-0FF17E1C2484}</ProjectGuid>
+    <ProjectGuid>{5535B127-6443-C756-7444-11C2CBE43265}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -58,57 +58,43 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.1f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Cutscene1.cs" />
     <Compile Include="Assets\MainScene\EvolveGames\RealisticFPSController\Scripts\ClickDetection.cs" />
-    <Compile Include="Assets\CutScene_2Trigger.cs" />
+    <Compile Include="Assets\Code\Scripts\FadeOut.cs" />
     <Compile Include="Assets\MainScene\EvolveGames\RealisticFPSController\Scripts\HandsHolder.cs" />
     <Compile Include="Assets\NewCutsceneAssets\Code\FogColorController.cs" />
-    <Compile Include="Assets\CutScene_2.cs" />
     <Compile Include="Assets\MainScene\EvolveGames\RealisticFPSController\Scripts\HeadBob.cs" />
     <Compile Include="Assets\MainScene\EvolveGames\RealisticFPSController\Scripts\HandsSmooth.cs" />
     <Compile Include="Assets\MainScene\EvolveGames\RealisticFPSController\Scripts\TextWriter.cs" />
     <Compile Include="Assets\MainScene\EvolveGames\RealisticFPSController\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\BlinkController.cs" />
-    <Compile Include="Assets\Scripts\JumpScareTrigger.cs" />
-    <Compile Include="Assets\Scripts\DoorTrigger.cs" />
-    <Compile Include="Assets\Scripts\FadeIn.cs" />
-    <Compile Include="Assets\Scripts\FadeOut.cs" />
+    <Compile Include="Assets\Code\Scripts\DoorTrigger.cs" />
+    <Compile Include="Assets\Code\Scripts\JumpScareTrigger.cs" />
     <Compile Include="Assets\MainScene\EvolveGames\RealisticFPSController\Scripts\MENU.cs" />
-    <Compile Include="Assets\Glitch_Controller.cs" />
+    <Compile Include="Assets\Code\Scripts\FadeIn.cs" />
     <Compile Include="Assets\MainScene\EvolveGames\RealisticFPSController\Scripts\ColliderEvent.cs" />
     <Compile Include="Assets\MainScene\EvolveGames\RealisticFPSController\Scripts\MovementEffects.cs" />
+    <Compile Include="Assets\Code\OtherScripts\BlinkController.cs" />
+    <Compile Include="Assets\Code\OtherScripts\Glitch_Controller.cs" />
     <Compile Include="Assets\MainScene\EvolveGames\RealisticFPSController\Scripts\ItemChange.cs" />
+    <Compile Include="Assets\Code\OtherScripts\Cutscene1.cs" />
     <Compile Include="Assets\MainScene\EvolveGames\RealisticFPSController\Scripts\Viewpoint.cs" />
-    <Compile Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Scripts\CTI_Utils.cs" />
+    <Compile Include="Assets\Code\OtherScripts\CutScene_2Trigger.cs" />
+    <Compile Include="Assets\Code\OtherScripts\CutScene_2.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Bark_Array_301.shader" />
     <None Include="Assets\NewCutsceneAssets\Terrains\TerrainSampleAssets\ThirdPartyNotices.txt" />
     <None Include="Assets\NewCutsceneAssets\EasyRoads3D\lib\DelaunayER.dll" />
-    <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Billboard_301.shader" />
     <None Include="Assets\NewCutsceneAssets\EasyRoads3D\shaders\EasyRoads3D-Surface-Offset.shader" />
     <None Include="Assets\NewCutsceneAssets\EasyRoads3D\SRP Support Packages\_Readme.txt" />
-    <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Resources\CTI_Camera-DepthNormalTexture_301.shader" />
     <None Include="Assets\NewCutsceneAssets\EasyRoads3D\Resources\custom prefabs\_custom prefabs.txt" />
     <None Include="Assets\NewCutsceneAssets\EasyRoads3D\prefab meshes\_custom prefabs.txt" />
-    <None Include="Assets\Conifers [BOTD]\Conifers [BOTD] URP Readme.txt" />
-    <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Resources\CTI_Internal-DeferredShading.shader" />
     <None Include="Assets\NewCutsceneAssets\EasyRoads3D\Quick Start.txt" />
-    <None Include="Assets\Conifers [BOTD]\Getting started.txt" />
     <None Include="Assets\NewCutsceneAssets\EasyRoads3D\lib\EasyRoads3Dv3.dll" />
     <None Include="Assets\NewCutsceneAssets\EasyRoads3D\_readme .txt" />
     <None Include="Assets\NewCutsceneAssets\EasyRoads3D\shaders\EasyRoads3D-Road-Edit-Mode.shader" />
-    <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes\CTI_BillboardVertex_301.cginc" />
-    <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes\CTI_TranslucentLighting_301.cginc" />
-    <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Bark_301.shader" />
-    <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Resources\CTI_Internal-DeferredReflections.shader" />
-    <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes\CTI_indirect.cginc" />
     <None Include="Assets\NewCutsceneAssets\EasyRoads3D\shaders\ER Road Transparency.shader" />
-    <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Leaves_301.shader" />
     <None Include="Assets\NewCutsceneAssets\EasyRoads3D\Resources\dynamic prefabs\dynamic prefabs.txt" />
-    <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes\CTI_Builtin4xTreeLibraryTumbling_301.cginc" />
     <None Include="Assets\NewCutsceneAssets\EasyRoads3D\shaders\EasyRoads3D - Unity Standard 2018+.shader" />
-    <None Include="Assets\Hovl Studio\Magic effects pack\Demo scene\Readme.txt" />
+    <None Include="Assets\Packages\Hovl Studio\Magic effects pack\Demo scene\Readme.txt" />
     <None Include="Assets\NewCutsceneAssets\EasyRoads3D\prefab sources\_custom prefabs.txt" />
     <None Include="Assets\NewCutsceneAssets\Terrains\TerrainSampleAssets\ShaderGraphs\CustomFunctions\CustomLighting.hlsl" />
     <None Include="Assets\NewCutsceneAssets\EasyRoads3D\_Release Notes.txt" />
