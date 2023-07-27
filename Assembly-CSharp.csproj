@@ -62,6 +62,7 @@
     <Compile Include="Assets\MainScene\EvolveGames\RealisticFPSController\Scripts\ClickDetection.cs" />
     <Compile Include="Assets\CutScene_2Trigger.cs" />
     <Compile Include="Assets\MainScene\EvolveGames\RealisticFPSController\Scripts\HandsHolder.cs" />
+    <Compile Include="Assets\NewCutsceneAssets\Code\FogColorController.cs" />
     <Compile Include="Assets\CutScene_2.cs" />
     <Compile Include="Assets\MainScene\EvolveGames\RealisticFPSController\Scripts\HeadBob.cs" />
     <Compile Include="Assets\MainScene\EvolveGames\RealisticFPSController\Scripts\HandsSmooth.cs" />
@@ -82,19 +83,35 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Bark_Array_301.shader" />
+    <None Include="Assets\NewCutsceneAssets\Terrains\TerrainSampleAssets\ThirdPartyNotices.txt" />
+    <None Include="Assets\NewCutsceneAssets\EasyRoads3D\lib\DelaunayER.dll" />
     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Billboard_301.shader" />
+    <None Include="Assets\NewCutsceneAssets\EasyRoads3D\shaders\EasyRoads3D-Surface-Offset.shader" />
+    <None Include="Assets\NewCutsceneAssets\EasyRoads3D\SRP Support Packages\_Readme.txt" />
     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Resources\CTI_Camera-DepthNormalTexture_301.shader" />
+    <None Include="Assets\NewCutsceneAssets\EasyRoads3D\Resources\custom prefabs\_custom prefabs.txt" />
+    <None Include="Assets\NewCutsceneAssets\EasyRoads3D\prefab meshes\_custom prefabs.txt" />
     <None Include="Assets\Conifers [BOTD]\Conifers [BOTD] URP Readme.txt" />
     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Resources\CTI_Internal-DeferredShading.shader" />
+    <None Include="Assets\NewCutsceneAssets\EasyRoads3D\Quick Start.txt" />
     <None Include="Assets\Conifers [BOTD]\Getting started.txt" />
+    <None Include="Assets\NewCutsceneAssets\EasyRoads3D\lib\EasyRoads3Dv3.dll" />
+    <None Include="Assets\NewCutsceneAssets\EasyRoads3D\_readme .txt" />
+    <None Include="Assets\NewCutsceneAssets\EasyRoads3D\shaders\EasyRoads3D-Road-Edit-Mode.shader" />
     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes\CTI_BillboardVertex_301.cginc" />
     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes\CTI_TranslucentLighting_301.cginc" />
     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Bark_301.shader" />
     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Resources\CTI_Internal-DeferredReflections.shader" />
     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes\CTI_indirect.cginc" />
+    <None Include="Assets\NewCutsceneAssets\EasyRoads3D\shaders\ER Road Transparency.shader" />
     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Leaves_301.shader" />
+    <None Include="Assets\NewCutsceneAssets\EasyRoads3D\Resources\dynamic prefabs\dynamic prefabs.txt" />
     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes\CTI_Builtin4xTreeLibraryTumbling_301.cginc" />
+    <None Include="Assets\NewCutsceneAssets\EasyRoads3D\shaders\EasyRoads3D - Unity Standard 2018+.shader" />
     <None Include="Assets\Hovl Studio\Magic effects pack\Demo scene\Readme.txt" />
+    <None Include="Assets\NewCutsceneAssets\EasyRoads3D\prefab sources\_custom prefabs.txt" />
+    <None Include="Assets\NewCutsceneAssets\Terrains\TerrainSampleAssets\ShaderGraphs\CustomFunctions\CustomLighting.hlsl" />
+    <None Include="Assets\NewCutsceneAssets\EasyRoads3D\_Release Notes.txt" />
     <None Include="Assets\MainScene\EvolveGames\RealisticFPSController\Documentation.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -347,8 +364,14 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.1f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="DelaunayER">
+      <HintPath>Assets\NewCutsceneAssets\EasyRoads3D\lib\DelaunayER.dll</HintPath>
+    </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.3\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    </Reference>
+    <Reference Include="EasyRoads3Dv3">
+      <HintPath>Assets\NewCutsceneAssets\EasyRoads3D\lib\EasyRoads3Dv3.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
