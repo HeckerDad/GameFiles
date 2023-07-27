@@ -59,21 +59,38 @@ public class TypewriterAnimation : MonoBehaviour
         if (Cutscene1.presse && shouldAnimate && !firsttext)
         {
             shouldAnimate = false;
-            StartCoroutine(AnimateNewText());
+
+            // Stop the current running coroutine if it exists
+            if (animationCoroutine != null)
+                StopCoroutine(animationCoroutine);
+
+            // Clear the text element
+            textElement.text = string.Empty;
+
+            // Start the new typewriter animation coroutine
+            animationCoroutine = StartCoroutine(AnimateNewText());
         }
 
         if (ClickDetection.dooropen && shouldAnimate && secondtime)
         {
             shouldAnimate = false;
             secondtime = false;
-            StartCoroutine(AnimateNewText("Get some rest"));
+
+            // Stop the current running coroutine if it exists
+            if (animationCoroutine != null)
+                StopCoroutine(animationCoroutine);
+
+            // Clear the text element
+            textElement.text = string.Empty;
+
+            // Start the new typewriter animation coroutine
+            animationCoroutine = StartCoroutine(AnimateNewText("Get some rest"));
         }
     }
 
     private IEnumerator AnimateNewText(string newText = "Find Shelter")
     {
-        // Clear the text element
-        textElement.text = string.Empty;
+        // Clear the text element (not needed here since it's cleared before starting the coroutine)
 
         // Iterate through each character in the new text
         for (int i = 0; i < newText.Length; i++)
@@ -88,7 +105,9 @@ public class TypewriterAnimation : MonoBehaviour
         // Animation complete
         shouldAnimate = true;
         firsttext = true;
-        // Test this new update
+
+        // Clear the reference to the completed coroutine
         animationCoroutine = null;
+
     }
 }

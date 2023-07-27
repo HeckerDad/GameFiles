@@ -10,7 +10,7 @@ public class CutScene_2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Debug.Log("CutScene_2 Started succesfully");
     }
 
     // Update is called once per frame
